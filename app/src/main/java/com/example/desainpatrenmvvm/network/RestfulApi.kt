@@ -8,4 +8,7 @@ interface RestfulApi {
     @GET("admin/car")
     fun getAllCar() : retrofit2.Call<List<ResponseDataCarItem>>
 
+    @GET("admin/car")
+    fun getCar(): List<ResponseDataCarItem>
+
 }
