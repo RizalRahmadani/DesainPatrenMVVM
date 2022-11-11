@@ -8,6 +8,47 @@
       </map>
     </option>
   </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="field" FQNAME="com.example.desainpatrenmvvm.view.MainActivity binding" />
+      <entry_point TYPE="field" FQNAME="com.example.desainpatrenmvvm.VMTest servis" />
+      <entry_point TYPE="field" FQNAME="com.example.desainpatrenmvvm.view.MainActivity viewModel" />
+      <entry_point TYPE="field" FQNAME="com.example.desainpatrenmvvm.network.RetrofitClien BASE_URL" />
+      <entry_point TYPE="field" FQNAME="com.example.desainpatrenmvvm.network.RetrofitClien instance$delegate" />
+      <entry_point TYPE="functional.expression" FQNAME="lambda (getCarTest)" />
+      <entry_point TYPE="field" FQNAME="com.example.desainpatrenmvvm.viewmodel.ViewModelCar liveDataCar" />
+      <entry_point TYPE="method" FQNAME="com.example.desainpatrenmvvm.viewmodel.ViewModelCar$-1 void onFailure(retrofit2.Call&lt;java.util.List&lt;com.example.desainpatrenmvvm.model.ResponseDataCarItem&gt;&gt; call, java.lang.Throwable t)" />
+      <entry_point TYPE="method" FQNAME="com.example.desainpatrenmvvm.viewmodel.ViewModelCar$-1 void onResponse(retrofit2.Call&lt;java.util.List&lt;com.example.desainpatrenmvvm.model.ResponseDataCarItem&gt;&gt; call, retrofit2.Response&lt;java.util.List&lt;com.example.desainpatrenmvvm.model.ResponseDataCarItem&gt;&gt; response)" />
+    </entry_points>
+    <pattern value="com.example.desainpatrenmvvm.view.MainActivity" method="showDataCar" />
+    <pattern value="com.example.desainpatrenmvvm.view.MainActivity" />
+    <pattern value="com.example.desainpatrenmvvm.view.ActivityRegister" />
+    <pattern value="com.example.desainpatrenmvvm.view.AdapterCar" />
+    <pattern value="com.example.desainpatrenmvvm.view.AdapterCar" method="AdapterCar" />
+    <pattern value="com.example.desainpatrenmvvm.ExampleUnitTest" method="addition_isCorrect" />
+    <pattern value="com.example.desainpatrenmvvm.viewmodel.ViewModelCar" method="callApiCar" />
+    <pattern value="com.example.desainpatrenmvvm.ExampleInstrumentedTest" />
+    <pattern value="com.example.desainpatrenmvvm.ExampleUnitTest" />
+    <pattern value="com.example.desainpatrenmvvm.network.RestfulApi" method="getAllCar" />
+    <pattern value="com.example.desainpatrenmvvm.network.RestfulApi" method="getCar" />
+    <pattern value="com.example.desainpatrenmvvm.VMTest" method="getCarTest" />
+    <pattern value="com.example.desainpatrenmvvm.view.AdapterCar" method="getItemCount" />
+    <pattern value="com.example.desainpatrenmvvm.viewmodel.ViewModelCar" method="getLiveDataCa" />
+    <pattern value="com.example.desainpatrenmvvm.model.ResponseDataCar" />
+    <pattern value="com.example.desainpatrenmvvm.viewmodel.ViewModelCar" />
+    <pattern value="com.example.desainpatrenmvvm.VMTest" />
+    <pattern value="com.example.desainpatrenmvvm.view.AdapterCar" method="onBindViewHolder" />
+    <pattern value="com.example.desainpatrenmvvm.view.MainActivity" method="onCreate" />
+    <pattern value="com.example.desainpatrenmvvm.view.AdapterCar" method="onCreateViewHolder" />
+    <pattern value="com.example.desainpatrenmvvm.model.ResponseDataCarItem" />
+    <pattern value="com.example.desainpatrenmvvm.model.ResponseDataCarItem" method="ResponseDataCarItem" />
+    <pattern value="com.example.desainpatrenmvvm.network.RestfulApi" />
+    <pattern value="com.example.desainpatrenmvvm.network.RetrofitClien" />
+    <pattern value="com.example.desainpatrenmvvm.VMTest" method="setUp" />
+    <pattern value="com.example.desainpatrenmvvm.ExampleInstrumentedTest" method="useAppContext" />
+    <pattern value="com.example.desainpatrenmvvm.view.AdapterCar.ViewHolder" />
+    <pattern value="com.example.desainpatrenmvvm.view.AdapterCar.ViewHolder" method="ViewHolder" />
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

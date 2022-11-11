@@ -3,6 +3,9 @@ package com.example.desainpatrenmvvm.model
 
 import com.google.gson.annotations.SerializedName
 
+@Suppress("unused", "unused", "unused", "unused", "unused", "unused", "unused", "unused", "unused",
+    "unused"
+)
 data class ResponseDataCarItem(
     @SerializedName("category")
     val category: String,

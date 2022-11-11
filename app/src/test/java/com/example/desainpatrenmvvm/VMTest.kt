@@ -1,3 +1,5 @@
+@file:Suppress("unused", "unused", "unused", "unused")
+
 package com.example.desainpatrenmvvm
 
 import com.example.desainpatrenmvvm.model.ResponseDataCarItem
@@ -10,7 +12,9 @@ import kotlinx.coroutines.runBlocking
 import org.junit.Before
 import org.junit.Test
 
+@Suppress("unused", "unused")
 class VMTest {
+    @Suppress("unused", "unused")
     lateinit var servis: RestfulApi
 
     @Before

@@ -1,3 +1,8 @@
+@file:Suppress("unused", "unused", "unused", "unused", "unused", "unused", "unused", "unused",
+    "unused", "unused", "unused", "unused", "unused", "unused", "unused", "unused", "unused",
+    "unused"
+)
+
 package com.example.desainpatrenmvvm.viewmodel
 
 import androidx.lifecycle.MutableLiveData
@@ -8,12 +13,12 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
+@Suppress("unused", "unused", "unused", "unused", "unused", "unused", "unused", "unused", "unused",
+    "unused", "unused", "unused"
+)
 class ViewModelCar: ViewModel() {
-    lateinit var  liveDataCar : MutableLiveData<List<ResponseDataCarItem>>
+    var  liveDataCar : MutableLiveData<List<ResponseDataCarItem>> = MutableLiveData()
 
-    init {
-        liveDataCar = MutableLiveData()
-    }
     fun getLiveDataCa(): MutableLiveData<List<ResponseDataCarItem>> {
         return liveDataCar
     }
